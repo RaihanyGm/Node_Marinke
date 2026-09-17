@@ -21,7 +21,7 @@ function criar (dados) {
     };
 
     produtos.push(produto);
-    return produto
+    return produto;
 }
 
 GPUShaderModule.exports = { listar,buscaPorId, criar};
